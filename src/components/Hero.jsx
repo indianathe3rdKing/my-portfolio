@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import HeroText from "./HeroText";
 import ParallaxBackground from "./ParallaxBackground";
 import { Canvas } from "@react-three/fiber";
-import { Astronaut } from "./Astronaut";
+import { Ship } from "./Ship";
 import { OrbitControls } from "@react-three/drei";
 
 const Hero = () => {
@@ -15,7 +15,7 @@ const Hero = () => {
         style={{ width: "100vw", height: "100vh" }}
       >
         <Canvas>
-          <Astronaut />
+          <Ship />
           <OrbitControls />
           <ambientLight intensity={0.5} />
           <spotLight position={[10, 15, 10]} angle={0.5} />

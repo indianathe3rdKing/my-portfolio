@@ -6,15 +6,21 @@ Source: https://sketchfab.com/3d-models/no-mans-sky-radiant-pillar-bc1-97e9276d8
 Title: No Man’s Sky - Radiant Pillar BC1
 */
 
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
 
-export function Astronaut(props) {
+export function Ship(props) {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF(
     "src/public/models/no_mans_sky_-_radiant_pillar_bc1.glb"
   );
   const { actions } = useAnimations(animations, group);
+  useEffect(() => {
+    if (animations.length > 0) {
+      actions[animations[0].name]?.play();
+      console.log(animations);
+    }
+  });
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Sketchfab_Scene">
