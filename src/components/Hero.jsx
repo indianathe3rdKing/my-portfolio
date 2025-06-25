@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import HeroText from "./HeroText";
 import ParallaxBackground from "./ParallaxBackground";
 import { Canvas } from "@react-three/fiber";
-// import { Astronaut } from "./Astronaut";
+import { Astronaut } from "./Astronaut";
 
 const Hero = () => {
   return (
@@ -13,7 +13,9 @@ const Hero = () => {
         className="absolute inset-0"
         style={{ width: "100vw", height: "100vh" }}
       >
-        <Canvas></Canvas>
+        <Canvas>
+          <Astronaut />
+        </Canvas>
       </figure>
     </section>
   );

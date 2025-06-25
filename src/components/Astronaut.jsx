@@ -12,7 +12,7 @@ import { useGLTF, useAnimations } from "@react-three/drei";
 export function Astronaut(props) {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF(
-    "/models/no_mans_sky_-_radiant_pillar_bc1.glb"
+    "src/public/models/no_mans_sky_-_radiant_pillar_bc1.glb"
   );
   const { actions } = useAnimations(animations, group);
   return (
