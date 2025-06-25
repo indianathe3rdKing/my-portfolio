@@ -7,7 +7,9 @@ Title: No Man’s Sky - Radiant Pillar BC1
 */
 
 import React, { useEffect, useRef } from "react";
-import { useGLTF, useAnimations } from "@react-three/drei";
+import { useGLTF, useAnimations, useMotion } from "@react-three/drei";
+import { useMotionValue, useSpring } from "motion/react";
+import { useFrame } from "@react-three/fiber";
 
 export function Ship(props) {
   const group = useRef();
@@ -20,16 +22,31 @@ export function Ship(props) {
       actions[animations[0].name]?.play();
       console.log(animations);
     }
+  }, [actions, animations]);
+
+  const yPosition = useMotionValue(5);
+  const ySpring = useSpring(yPosition, { damping: 100 });
+
+  useEffect(() => {
+    ySpring.set(-1);
+  }, [ySpring]);
+
+  useFrame(() => {
+    group.current.position.y = ySpring.get();
   });
+
   return (
-    <group ref={group} {...props} dispose={null}>
+    <group
+      ref={group}
+      {...props}
+      dispose={null}
+      rotation={[Math.PI / 5, -3.1, -0.7]}
+      scale={props.scale || -2.6}
+      position={props.position || [-1.3, -10.9, 0]}
+    >
       <group name="Sketchfab_Scene">
-        <group name="Sketchfab_model" rotation={[-Math.PI / 2, 0, 0]}>
-          <group
-            name="1f570e8d69b84c71af7f8efe02dc5d3afbx"
-            rotation={[Math.PI / 2, 0, 0]}
-            scale={0.025}
-          >
+        <group name="Sketchfab_model" rotation={[-Math.PI / 2, -0.2, 2.2]}>
+          <group name="1f570e8d69b84c71af7f8efe02dc5d3afbx">
             <group name="Object_2">
               <group name="RootNode">
                 <group
