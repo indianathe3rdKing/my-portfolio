@@ -1,4 +1,5 @@
-import Hero from "./components/Hero";
+import About from "./components/About";
+
 import Navbar from "./components/Navbar";
 
 const App = () => {
@@ -6,7 +7,7 @@ const App = () => {
     <main>
       <div className="container mx-auto max-w-7xl">
         <Navbar />
-        <section className="min-h-screen" />
+        <About />
         <section className="min-h-screen" />
         <section className="min-h-screen" />
         <section className="min-h-screen" />
