@@ -3,6 +3,7 @@ import HeroText from "./HeroText";
 import ParallaxBackground from "./ParallaxBackground";
 import { Canvas } from "@react-three/fiber";
 import { Astronaut } from "./Astronaut";
+import { OrbitControls } from "@react-three/drei";
 
 const Hero = () => {
   return (
@@ -15,6 +16,9 @@ const Hero = () => {
       >
         <Canvas>
           <Astronaut />
+          <OrbitControls />
+          <ambientLight intensity={0.5} />
+          <spotLight position={[10, 15, 10]} angle={0.5} />
         </Canvas>
       </figure>
     </section>
