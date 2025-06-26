@@ -1,8 +1,13 @@
 import { useRef } from "react";
 import Card from "./Card";
+import Background from "three/src/renderers/common/Background.js";
 
 const About = () => {
   const grid2Container = useRef();
+  // Get only the date in YYYY-MM-DD format
+  const date = new Date().toLocaleDateString();
+  const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
   return (
     <section className="c-space section-spacing">
       <h2 className="text-heading">About Me</h2>
@@ -60,9 +65,35 @@ const About = () => {
           </div>
         </div>
         {/* Grid 3*/}
-        <div className="grid-black-color grid-3 "></div>
+        <div
+          className="grid-black-color grid-3  "
+          style={{
+            backgroundImage: "url(src/public/assets/time.jpg)",
+            backgroundSize: "center",
+            backgroundPosition: "cover",
+          }}
+        >
+          <div className="bg-black opacity-20 absolute w-full h-full inset-0" />
+          <div className="flex items-center">
+            <div className="z-10 w-[50%]">
+              <p className="headtext">Time Zone</p>
+              <p className="subtext">
+                I'm based in Port Elizabeth and open to work worldwide
+              </p>
+            </div>
+            <div className="absolute bottom-[10%] right-[10%] subtext">
+              <p>{date}</p>
+              <p>{timeZone}</p>
+              <p>South Africa SAST, UTC+2</p>
+            </div>
+          </div>
+        </div>
         {/* Grid 4*/}
-        <div className="grid-special-color grid-4 "></div>
+        <div className="grid-special-color grid-4 ">
+          <div className="flex flex-col items-center justify-center gap-4 size-full ">
+            <p className="text-center headtext">Let's work together</p>
+          </div>
+        </div>
         {/* Grid 5*/}
         <div className="grid-default-color grid-5 "></div>
       </div>
