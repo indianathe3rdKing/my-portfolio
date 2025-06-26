@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import Card from "./Card";
 import Background from "three/src/renderers/common/Background.js";
+import CopyEmailButton from "./CopyEmailButton";
 
 const About = () => {
   const grid2Container = useRef();
@@ -92,6 +93,7 @@ const About = () => {
         <div className="grid-special-color grid-4 ">
           <div className="flex flex-col items-center justify-center gap-4 size-full ">
             <p className="text-center headtext">Let's work together</p>
+            <CopyEmailButton />
           </div>
         </div>
         {/* Grid 5*/}
