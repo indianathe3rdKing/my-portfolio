@@ -1,6 +1,7 @@
 import About from "./components/About";
 
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <div className="container mx-auto max-w-7xl">
         <Navbar />
         <About />
+        <Projects />
         <section className="min-h-screen" />
         <section className="min-h-screen" />
         <section className="min-h-screen" />
