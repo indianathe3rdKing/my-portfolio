@@ -2,6 +2,8 @@ import { useRef } from "react";
 import Card from "./Card";
 import Background from "three/src/renderers/common/Background.js";
 import CopyEmailButton from "./CopyEmailButton";
+import Frameworks from "./Frameworks";
+import { PiFigmaLogo } from "react-icons/pi";
 
 const About = () => {
   const grid2Container = useRef();
@@ -70,19 +72,20 @@ const About = () => {
           className="grid-black-color grid-3  "
           style={{
             backgroundImage: "url(src/public/assets/time.jpg)",
-            backgroundSize: "center",
+            backgroundSize: "cover",
             backgroundPosition: "cover",
           }}
         >
-          <div className="bg-black opacity-20 absolute w-full h-full inset-0" />
+          <div className="bg-black opacity-9 absolute w-full h-full inset-10" />
           <div className="flex items-center">
             <div className="z-10 w-[50%]">
               <p className="headtext">Time Zone</p>
               <p className="subtext">
-                I'm based in Port Elizabeth and open to work worldwide
+                I'm based in Port Elizabeth and open to work worldwide npm
+                <PiFigmaLogo />
               </p>
             </div>
-            <div className="absolute bottom-[10%] right-[10%] subtext">
+            <div className=" absolute bottom-[10%] right-[10%] subtext">
               <p>{date}</p>
               <p>{timeZone}</p>
               <p>South Africa SAST, UTC+2</p>
@@ -97,7 +100,11 @@ const About = () => {
           </div>
         </div>
         {/* Grid 5*/}
-        <div className="grid-default-color grid-5 "></div>
+        <div className="grid-default-color grid-5 ">
+          <div className="absolute inset-y-0 md:inset-y-1 w-full h-full start-0  md:scale-125 ">
+            <Frameworks />
+          </div>
+        </div>
       </div>
     </section>
   );
