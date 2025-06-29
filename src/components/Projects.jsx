@@ -1,14 +1,36 @@
+import { useMotion } from "@react-three/drei";
 import { myProjects } from "../constants/index";
 import Project from "./Project";
+import { motion, useMotionValue, useSpring } from "motion/react";
+import { useState } from "react";
 
 const Projects = () => {
+  const x = useMotionValue(0);
+  const y = useMotionValue(0);
+  const springX = useSpring(x, { damping: 10, stiffness: 50 });
+  const springY = useSpring(y, { damping: 10, stiffness: 50 });
+  const handleMouseMove = (e) => {
+    x.set(e.clientX + 20);
+    y.set(e.clientY + 20);
+  };
+  const [preview, setPreview] = useState(null);
   return (
-    <section className="relative c-space section-spacing">
+    <section
+      onMouseMove={handleMouseMove}
+      className="relative c-space section-spacing"
+    >
       <h2 className="text-heading">My Selected Projects</h2>
       <div className="bg-gradient-to-r from transparent via-neutral-700 to-transparent mt-12 h-[1px] w-full"></div>
       {myProjects.map((project) => (
-        <Project key={project.id} />
+        <Project key={project.id} {...project} setPreview={setPreview} />
       ))}
+      {preview && (
+        <motion.img
+          className="fixed top-0 left-0 rounded-lg object-cover shadow-lg pointer-events-none  h-56  w-80"
+          src={preview}
+          style={{ x: springX, y: springY }}
+        />
+      )}
     </section>
   );
 };
