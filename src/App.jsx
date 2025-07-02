@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Experiences from "./components/Experiences";
 
 import Navbar from "./components/Navbar";
@@ -12,16 +13,7 @@ const App = () => {
         <About />
         <Projects />
         <Experiences />
-        <section className="min-h-screen" />
-        <section className="min-h-screen" />
-        <section className="min-h-screen" />
-        <section className="min-h-screen" />
-        {/* {about} */}
-        {/* {projects} */}
-        {/* {experience} */}
-        {/* {testiomonial} */}
-        {/* {contact} */}
-        {/* {footer} */}
+        <Contact />
       </div>
     </main>
   );
