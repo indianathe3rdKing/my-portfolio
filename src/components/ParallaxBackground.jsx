@@ -5,7 +5,7 @@ const ParallaxBackground = () => {
   const x = useSpring(scrollYProgress, { damping: 50 });
   const mountain3Y = useTransform(x, [0, 0.5], ["0%", "70%"]);
   const planetsX = useTransform(x, [0, 0.5], ["0%", "-20%"]);
-  const mountain2Y = useTransform(x, [0, 0.5], ["0%", "-30%"]);
+  const mountain2Y = useTransform(x, [0, 0.5], ["0%", "-10%"]);
   const mountain1Y = useTransform(x, [0, 0.5], ["0%", "0%"]);
   return (
     <section className="absolute -z-50 inset-0 bg-black">
@@ -14,7 +14,7 @@ const ParallaxBackground = () => {
         <div
           className="absolute inset-0 w-full h-screen -z-50"
           style={{
-            backgroundImage: "url(src/public/assets/sky.jpg)",
+            backgroundImage: "url(public/assets/sky.jpg)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
           }}
@@ -23,7 +23,7 @@ const ParallaxBackground = () => {
         <motion.div
           className="absolute inset-0 -z-40 "
           style={{
-            backgroundImage: "url(src/public/assets/mountain-3.png)",
+            backgroundImage: "url(/assets/mountain-3.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain3Y,
@@ -33,7 +33,7 @@ const ParallaxBackground = () => {
         <motion.div
           className="absolute inset-0 -z-40 "
           style={{
-            backgroundImage: "url(src/public/assets/planets.png)",
+            backgroundImage: "url(/assets/planets.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             x: planetsX,
@@ -43,7 +43,7 @@ const ParallaxBackground = () => {
         <motion.div
           className="absolute inset-0 -z-40 "
           style={{
-            backgroundImage: "url(src/public/assets/mountain-2.png)",
+            backgroundImage: "url(/assets/mountain-2.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain2Y,
@@ -53,7 +53,7 @@ const ParallaxBackground = () => {
         <motion.div
           className="absolute inset-0 -z-40 "
           style={{
-            backgroundImage: "url(src/public/assets/mountain-1.png)",
+            backgroundImage: "url(/assets/mountain-1.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain1Y,

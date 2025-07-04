@@ -43,7 +43,7 @@ const CopyEmailButton = () => {
           transition={{ duration: 0.5 }}
         >
           <img
-            src="src/public/assets/copy.svg"
+            src="/assets/copy.svg"
             className="w-5"
             alt="Clipboard icon representing copy action, next to the text Copy Email Address, both centered on a rounded button with a calm and inviting appearance"
           />

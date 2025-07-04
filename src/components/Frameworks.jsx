@@ -25,7 +25,7 @@ export default function UseTime() {
     height: 40,
     backgroundColor: "#9911ff",
     borderRadius: 5,
-    rotate: useTransform(() => rotate.get() * 2), // 2x speed
+    rotate: useTransform(() => rotate.get() * 1.5), // 2x speed
   };
 
   const smallBox = {
@@ -34,7 +34,7 @@ export default function UseTime() {
     color: "#fff",
     backgroundColor: "#dd00ee",
     borderRadius: 5,
-    rotate: useTransform(() => rotate.get() * 1.5), // 1.5x speed
+    rotate: useTransform(() => rotate.get() * 0.5), // 1.5x speed
   };
 
   const box = {
@@ -42,7 +42,7 @@ export default function UseTime() {
     height: 90,
     backgroundColor: "#ff0088",
     borderRadius: 6,
-    rotate,
+    rotate: useTransform(() => rotate.get() * 0.25), // 1x speed
   };
 
   return (

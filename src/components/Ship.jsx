@@ -14,7 +14,7 @@ import { useFrame } from "@react-three/fiber";
 export function Ship(props) {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF(
-    "src/public/models/no_mans_sky_-_radiant_pillar_bc1.glb"
+    "/models/no_mans_sky_-_radiant_pillar_bc1.glb"
   );
   const { actions } = useAnimations(animations, group);
   useEffect(() => {

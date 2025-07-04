@@ -71,7 +71,7 @@ const About = () => {
         <div
           className="grid-black-color grid-3  "
           style={{
-            backgroundImage: "url(src/public/assets/time.jpg)",
+            backgroundImage: "url(/assets/time.jpg)",
             backgroundSize: "cover",
             backgroundPosition: "cover",
           }}
@@ -81,8 +81,7 @@ const About = () => {
             <div className="z-10 w-[50%]">
               <p className="headtext">Time Zone</p>
               <p className="subtext">
-                I'm based in Port Elizabeth and open to work worldwide npm
-                <PiFigmaLogo />
+                I'm based in Port Elizabeth and open to work worldwide
               </p>
             </div>
             <div className=" absolute bottom-[10%] right-[10%] subtext">
