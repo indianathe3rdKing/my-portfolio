@@ -37,12 +37,12 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "https://wa.me/0728029708",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "www.linkedin.com/in/indiphile-menziwa",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
@@ -54,39 +54,90 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Machine Operator",
+    job: "Minileit Automotive",
+    date: "2020 - 2021",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Precision Production: Operated carbon-fiber molding machines to produce high-spec automotive components within +1 mm tolerance.",
+      "Quality Assurance Champion: Performed detailed QC inspections on 200+ parts daily, maintaining a <1% defect rate.",
+      "Preventative Maintenance: Conducted routine checks and basic repairs on machinery, reducing unplanned downtime by 10%.",
+      "Material Handling Expert: Managed inventory flow, loading/unloading raw materials and finished goods with 99% accuracy.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Fibre Sales Agent",
+    job: "Real Promotions",
+    date: "2022 - 2023",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Top Performer: Consistently exceeded monthly sales targets by 20%+ through consultative selling, B2B, and tailored product demos.",
+      "Team Builder: Trained and mentored 5 new recruits in sales techniques and CRM best practices, boosting team quota achievement by 15%.",
+      "Client Relationship Manager: Developed strong customer rapport, achieving a 90% customer satisfaction rate and high referral business.",
+      "Market Analyst: Collected and reported on competitor pricing and service offerings, informing real-time sales strategies.",
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Technical Support Specialist",
+    job: "Ikhokha",
+    date: "2023 - 2024",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Customer Success Advocate: Respond to 30+ device-activation inquiries weekly, guiding users through onboarding and ensuring 100% activation success.",
+      "Technical Troubleshooter: Diagnose and resolve complex hardware/software issues, reducing escalations to engineering by 30%.",
+      "Cross-Team Collaborator: Liaise between support, development, and product teams to translate user feedback into prioritized device bug fixes.",
+    ],
+  },
+  {
+    title: "Boiler Operator",
+    job: "Sustainable Heating",
+    date: "2024 - Present",
+    contents: [
+      "Command Steam Production: Oversee continuous steam supply to two high-demand industrial clients, maintaining 99% uptime through proactive system checks and rapid breakdown interventions.",
+      "Lead & Mentor: Manage and train a team of three assistants, running daily briefings, assigning operational tasks, and fostering a culture of safety and accountability.",
+      "Data-Driven Operations: Log and analyze key metrics (pressure, temperature, runtime) via Microsoft Excel and the Unicorf boiler SCADA system, uncovering efficiency gains that reduced unexpected downtime by 15%.",
+      "Cross-Functional Liaison: Serve as the communication bridge between plant technicians, HR, and external clients, translating SCADA reports into clear action plans, coordinating maintenance windows, and delivering timely performance updates.",
+      "Preventative Maintenance & Testing: Develop and execute routine mechanical and performance tests on boiler components (valves, pumps, safety interlocks), ensuring system integrity.",
+      "Safety & Compliance Champion: Lead weekly safety audits and toolbox talks, enforce regulatory standards, and maintain a spotless incident record.",
+      "Technical Toolbelt: Utilize CMMS platforms alongside Microsoft Office and Unicorf SCADA to optimize workflows, track inventory, track steam distribution between the two companies, and document all maintenance activities.",
+      "Continuous Improvement Driver: Implement Excel macros and scripting to automate data entry and reporting, saving the team up to 2 hours of administrative work per week.",
     ],
   },
 ];
+
+// export const experiences = [
+//   {
+//     title: "Software Developer",
+//     job: "Security & Defense Projects",
+//     date: "2021-2023",
+//     contents: [
+//       "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
+//       "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
+//       "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
+//       "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
+//       "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+//     ],
+//   },
+//   {
+//     title: "Back-End Developer",
+//     job: "Car Manufacture",
+//     date: "2023-2024",
+//     contents: [
+//       "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
+//       "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
+//       "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
+//       "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
+//       "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+//     ],
+//   },
+//   {
+//     title: "Boiler Operator",
+//     job: "Sustainable Heating",
+//     date: "2024-Present",
+//     contents: [
+//       "Operate and maintain 2 boilers, ensuring efficient and safe operation steam to the clients.",
+//       "Develop and implement preventive maintenance procedures to minimize downtime and ensure reliability.",
+//       "Monitor boiler performance and make adjustments as needed to optimize efficiency.",
+//     ],
+//   },
+// ];
 export const reviews = [
   {
     name: "Jack",
@@ -99,41 +150,5 @@ export const reviews = [
     username: "@jill",
     body: "I don't know what to say. I'm speechless. This is amazing.",
     img: "https://robohash.org/jill",
-  },
-  {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
-  },
-  {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
-  },
-  {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
-  },
-  {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
   },
 ];

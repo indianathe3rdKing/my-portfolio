@@ -8,25 +8,30 @@ function Navigation() {
   return (
     <ul className="nav-ul">
       <li className="nav-li">
-        <a href="home" className="nav-link ">
+        <a href="#home" className="nav-link ">
           Home
         </a>
       </li>
       <li className="nav-li">
-        <a href="about" className="nav-link">
+        <a href="#about" className="nav-link">
           About
         </a>
       </li>
 
       <li className="nav-li">
-        <a href="experience" className="nav-link">
+        <a href="#experience" className="nav-link">
           Work
         </a>
       </li>
 
       <li className="nav-li">
-        <a href="contact" className="nav-link">
+        <a href="#contact" className="nav-link">
           Contact
+        </a>
+      </li>
+      <li className="nav-li">
+        <a href="https://github.com/dashboard" className="nav-link">
+          Github
         </a>
       </li>
     </ul>
