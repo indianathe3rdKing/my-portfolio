@@ -50,7 +50,7 @@ const Navbar = () => {
               href="/"
               className="text-2xl font-bold transition-colors text-neutral-400 hover:text-white"
             >
-              Eddie
+              Indiphile
             </a>
             <NavMenu isOpen={isOpen} setIsOpen={setIsOpen} />
             <nav className="hidden sm:flex">
