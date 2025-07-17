@@ -33,7 +33,7 @@ const HeroText = ({ isOpen }) => {
             animate="visible"
             transition={{ delay: 1 }}
           >
-            A Developer <br />
+            Aspiring Full Developer & Plant Ops Pro <br />
             Dedicated to Crafting
           </motion.p>
           <div>
