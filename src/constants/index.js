@@ -72,18 +72,18 @@ export const myProjects = [
   },
   {
     id: 1,
-    title: "Steam Logger",
+    title: "Ghost Platform",
     description:
-      "A small 3D platformer-style minigame built in Unity using URP, designed as my first exploration into game development. The project features simple movement, collision-based interactions, enemy triggers, and a portal that restarts the level upon completion. Created as a hands-on learning project to understand scene management, physics, and WebGL deployment.",
+      "A small 3D platformer minigame built in Unity as my first step into game development. Features basic movement, jumping, simple obstacles, and a portal-based level reset.",
     subDescription: [
-      "Built with Unity using the Universal Render Pipeline (URP) for stylized low-poly visuals.",
-      "Implemented enemy collisions, restart logic, and portal-based level completion.",
+      "Built with Unity using the Universal Render Pipeline (URP) for stylized low-poly visuals and deployed as a WebGL build.",
+
       "Designed responsive player controls including jump(space), horizontal movement(A/D,Left Arrow/Right Arrow)",
-      "Deployed as a WebGL build and integrated into my developer portfolio as my first published game project.",
+      "Integrated into my developer portfolio as my first published game project.",
     ],
     href: "https://indianathe3rd.itch.io/ghost-platform",
     logo: "",
-    image: "/assets/projects/steam.png",
+    image: "/assets/projects/ghost-platform.png",
     tags: [
       {
         id: 1,
