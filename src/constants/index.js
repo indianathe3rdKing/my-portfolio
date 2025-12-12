@@ -32,6 +32,39 @@ export const myProjects = [
       },
     ],
   },
+  {
+    id: 1,
+    title: "Steam Logger",
+    description:
+      "A purpose-built internal web application for logging, tracking, and reviewing Steam-related activity in real time. Steam Logger centralizes operational data into a single interface, allowing staff to capture entries, audit historical records, and maintain accountability across ongoing workflows.",
+    subDescription: [
+      "Provides a structured interface for logging Steam activity entries as they happen, reducing reliance on manual notes or scattered tools.",
+      "Stores and organizes logs in a searchable, time-ordered format, making it easy to review past actions and verify operational history.",
+      "Built with a clear separation between data input, record storage, and review, allowing staff to quickly log actions and managers to audit them.",
+      "Includes a demo environment where reviewers can access the full workflow using shared credentials to view how logs are created, stored, and reviewed end-to-end. This demo uses mock data to illustrate functionality without exposing real operational information.",
+    ],
+    href: "https://steam-logger.netlify.app/",
+    logo: "",
+    image: "/assets/projects/steam.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "CSS3",
+        path: "/assets/logos/css3.svg",
+      },
+
+      {
+        id: 3,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
 ];
 
 export const mySocials = [
