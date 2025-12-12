@@ -40,8 +40,8 @@ export const myProjects = [
     subDescription: [
       "Provides a structured interface for logging Steam activity entries as they happen, reducing reliance on manual notes or scattered tools.",
       "Stores and organizes logs in a searchable, time-ordered format, making it easy to review past actions and verify operational history.",
-      "Built with a clear separation between data input, record storage, and review, allowing staff to quickly log actions and managers to audit them.",
-      "Includes a demo environment where reviewers can access the full workflow using shared credentials to view how logs are created, stored, and reviewed end-to-end. This demo uses mock data to illustrate functionality without exposing real operational information.",
+      "Includes mobile app and deskstop web version",
+      "Includes a demo environment where reviewers can access the full workflow using shared credentials to view how logs are created, stored, and reviewed end-to-end",
     ],
     href: "https://steam-logger.netlify.app/",
     logo: "",
@@ -60,8 +60,40 @@ export const myProjects = [
 
       {
         id: 3,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Appwrite",
+        path: "/assets/logos/appwrite-icon.svg",
+      },
+      {
+        id: 4,
+        name: "Expo",
+        path: "/assets/logos/expo-dev-icon.svg",
+      },
+    ],
+  },
+  {
+    id: 1,
+    title: "Steam Logger",
+    description:
+      "A small 3D platformer-style minigame built in Unity using URP, designed as my first exploration into game development. The project features simple movement, collision-based interactions, enemy triggers, and a portal that restarts the level upon completion. Created as a hands-on learning project to understand scene management, physics, and WebGL deployment.",
+    subDescription: [
+      "Built with Unity using the Universal Render Pipeline (URP) for stylized low-poly visuals.",
+      "Implemented enemy collisions, restart logic, and portal-based level completion.",
+      "Designed responsive player controls including jump(space), horizontal movement(A/D,Left Arrow/Right Arrow)",
+      "Deployed as a WebGL build and integrated into my developer portfolio as my first published game project.",
+    ],
+    href: "https://indianathe3rd.itch.io/ghost-platform",
+    logo: "",
+    image: "/assets/projects/steam.png",
+    tags: [
+      {
+        id: 1,
+        name: "Unity",
+        path: "/assets/logos/unity-game-engine-icon.svg",
+      },
+      {
+        id: 2,
+        name: "C#",
+        path: "/assets/logos/c-sharp.svg",
       },
     ],
   },
