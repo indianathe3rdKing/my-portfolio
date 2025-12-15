@@ -3,12 +3,12 @@ export const myProjects = [
     id: 1,
     title: "Movie Fetcher",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "A simple movie discovery app that fetches movie data from external APIs. Users can search for movies, view details like titles and descriptions, and explore different films in a clean interface.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Built with React for a responsive and interactive user experience.",
+      "Integrated external movie APIs to fetch real-time movie data and information.",
+      "Implemented search functionality to help users find specific movies quickly.",
+      "Designed with clean styling for easy browsing and movie discovery.",
     ],
     href: "https://my-movie-fetcher.vercel.app/",
     logo: "",
