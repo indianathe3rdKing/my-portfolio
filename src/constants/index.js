@@ -8,7 +8,7 @@ export const myProjects = [
       "Built with React for a responsive and interactive user experience.",
       "Integrated external movie APIs to fetch real-time movie data and information.",
       "Implemented search functionality to help users find specific movies quickly.",
-      "Designed with clean styling for easy browsing and movie discovery.",
+      "I redid this project from a course template as practice",
     ],
     href: "https://my-movie-fetcher.vercel.app/",
     logo: "",
@@ -68,6 +68,11 @@ export const myProjects = [
         name: "Expo",
         path: "/assets/logos/expo-dev-icon.svg",
       },
+      {
+        id: 4,
+        name: "Python",
+        path: "/assets/logos/python.svg",
+      },
     ],
   },
   {
@@ -78,8 +83,8 @@ export const myProjects = [
     subDescription: [
       "Built with Unity using the Universal Render Pipeline (URP) for stylized low-poly visuals and deployed as a WebGL build.",
 
-      "Designed responsive player controls including jump(space), horizontal movement(A/D,Left Arrow/Right Arrow)",
-      "Integrated into my developer portfolio as my first published game project.",
+      "Designed responsive player controls including jump(space), horizontal movement(A/D,Left Arrow/Right Arrow). Click the frame to enable keyboard input.",
+      "Integrated into my developer portfolio as first step to learning game development.",
     ],
     href: "https://indianathe3rd.itch.io/ghost-platform",
     logo: "",
@@ -94,6 +99,42 @@ export const myProjects = [
         id: 2,
         name: "C#",
         path: "/assets/logos/c-sharp.svg",
+      },
+    ],
+  },
+  {
+    id: 1,
+    title: "Quick-Log Dictionary",
+    description:
+      "A Chrome extension that provides fast, AI-assisted word definitions and examples directly in the browser without interrupting the user’s workflow.",
+    subDescription: [
+      "Built as a lightweight Chrome Extension (Manifest V3) focused on speed and minimal UI disruption.",
+      "Uses AI to generate clear definitions and contextual examples during reading or research.",
+      "Backed by AWS services with DynamoDB for structured data storage and retrieval.",
+    ],
+    href: "https://github.com/indianathe3rdKing/Dictionary-Extension",
+    logo: "",
+    image: "/assets/projects/quick-log.png",
+    tags: [
+      {
+        id: 1,
+        name: "AWS",
+        path: "/assets/logos/aws.svg",
+      },
+      {
+        id: 2,
+        name: "AWS Lambda",
+        path: "/assets/logos/awslambda.svg",
+      },
+      {
+        id: 3,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 4,
+        name: "OpenAI API",
+        path: "/assets/logos/openai-darkmode.svg",
       },
     ],
   },
