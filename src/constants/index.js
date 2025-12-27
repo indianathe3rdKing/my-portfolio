@@ -1,7 +1,7 @@
 export const myProjects = [
   {
     id: 1,
-    title: "Movie Fetcher",
+    title: "AI Chatbot",
     description:
       "A simple movie discovery app that fetches movie data from external APIs. Users can search for movies, view details like titles and descriptions, and explore different films in a clean interface.",
     subDescription: [
@@ -9,6 +9,44 @@ export const myProjects = [
       "Integrated external movie APIs to fetch real-time movie data and information.",
       "Implemented search functionality to help users find specific movies quickly.",
       "I redid this project from a course template as practice",
+    ],
+    href: "https://chat-bot-pied-nine.vercel.app/",
+    logo: "",
+    image: "/assets/projects/chatbot.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Bun",
+        path: "/assets/logos/Bun.svg",
+      },
+      {
+        id: 3,
+        name: "Express",
+        path: "/assets/logos/Express.svg",
+      },
+
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Movie Fetcher",
+    description:
+      "A simple movie discovery app that fetches movie data from external APIs. Users can search for movies, view details like titles and descriptions, and explore different films in a clean interface.",
+    subDescription: [
+      "Built with React for a responsive and interactive user experience.",
+      "Integrated external movie APIs to fetch real-time movie data and information.",
+      "Implemented search functionality to help users find specific movies quickly.",
+      "I redid this project from a course as practice",
     ],
     href: "https://my-movie-fetcher.vercel.app/",
     logo: "",
@@ -33,7 +71,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 1,
+    id: 3,
     title: "Steam Logger",
     description:
       "A purpose-built internal web application for logging, tracking, and reviewing Steam-related activity in real time. Steam Logger centralizes operational data into a single interface, allowing staff to capture entries, audit historical records, and maintain accountability across ongoing workflows.",
@@ -76,16 +114,16 @@ export const myProjects = [
     ],
   },
   {
-    id: 1,
+    id: 4,
     title: "Ghost Platform",
     description:
-      "A small 3D platformer minigame built in Unity as my first step into game development. Features basic movement, jumping, simple obstacles, and a portal-based level reset.",
+      "A chatbot built to assist visitors of the fictional theme park Wonderland. The chatbot answers questions about the park, including general information, timings, and visitor-related queries through a conversational interface.",
     subDescription: [
-      "Built with Unity using the Universal Render Pipeline (URP) for stylized low-poly visuals and deployed as a WebGL build.",
-
-      "Designed responsive player controls including jump(space), horizontal movement(A/D,Left Arrow/Right Arrow). Click the frame to enable keyboard input.",
-      "Integrated into my developer portfolio as first step to learning game development.",
+      "Built as a monorepo using modern tooling, with a clear separation between frontend and backend workspaces for scalability and maintainability.",
+      "Uses OpenAI integration to provide accurate, context-aware responses while keeping API usage efficient and controlled.",
+      "Course project from Mosh Hamedani's AI course",
     ],
+
     href: "https://indianathe3rd.itch.io/ghost-platform",
     logo: "",
     image: "/assets/projects/ghost-platform.png",
@@ -103,7 +141,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 1,
+    id: 5,
     title: "Quick-Log Dictionary",
     description:
       "A Chrome extension that provides fast, AI-assisted word definitions and examples directly in the browser without interrupting the user’s workflow.",

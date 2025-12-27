@@ -25,15 +25,15 @@ const HeroText = ({ isOpen }) => {
         >
           Hi I'm Indiphile
         </motion.h1>
-        <div className="flex flex-col items-start">
+        <div className="flex flex-col gap-2 items-start">
           <motion.p
-            className="text-5xl font-medium text-neutral-300"
+            className="text-5xl/15 font-medium text-neutral-300 "
             variants={variants}
             initial="hidden"
             animate="visible"
             transition={{ delay: 1 }}
           >
-            Aspiring FullStack Developer <br /> & Plant Ops Pro <br />
+            Aspiring Software Developer <br />
             Dedicated to Crafting
           </motion.p>
           <div>
@@ -49,7 +49,7 @@ const HeroText = ({ isOpen }) => {
             animate="visible"
             transition={{ delay: 1 }}
           >
-            Web Solution
+            Web Solutions
           </motion.p>
         </div>
       </div>
