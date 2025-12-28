@@ -25,8 +25,13 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I'M Indiphile</p>
             <p className="text-neutral-300">
-              Over the past year, I developed frontend and backend dv skills to
-              deliver dynamic and responsive software and web applications
+              I’m a developer who learns by building. I started with the web,
+              not because it’s trendy, but because it teaches fundamentals—how
+              systems connect, how users interact, and how ideas become real
+              products. I’m still learning, still refining, and intentionally
+              growing into apps and broader software systems through hands-on
+              projects.With already a few project under my belt, I’m excited to
+              keep building, keep learning, and see where this journey takes me.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo  "></div>
