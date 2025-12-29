@@ -80,7 +80,7 @@ export const myProjects = [
       "Stores and organizes logs in a searchable, time-ordered format, making it easy to review past actions and verify operational history.",
       "Includes mobile app and deskstop web version",
       `Includes a demo environment ${(
-        <p className="text-primary">
+        <p className="text-sand font-bold">
           (Password:Godlovesu, Email: demo123@gmail.com)
         </p>
       )} where reviewers can access the full workflow using shared credentials to view how logs are created, stored, and reviewed end-to-end`,
