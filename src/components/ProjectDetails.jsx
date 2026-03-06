@@ -23,7 +23,12 @@ const ProjectDetails = ({
         >
           <img src="/assets/close.svg" className="w-6 h-6" alt="close" />
         </button>
-        <img src={image} className="rounded-t-2xl w-full" alt={title} />
+        <img
+          src={image}
+          className="rounded-t-2xl w-full max-h-80 object-cover"
+          alt={title}
+        />
+
         <div className="p-6">
           <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
           <p className="mb-3 font-normal text-neutral-400">{description}</p>

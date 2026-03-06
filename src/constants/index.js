@@ -39,34 +39,23 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Movie Fetcher",
+    title: "CycleForecast",
     description:
-      "A simple movie discovery app that fetches movie data from external APIs. Users can search for movies, view details like titles and descriptions, and explore different films in a clean interface.",
+      "CycleForecast is an android app built with Kotlin and Jetpack Compose that provides weather forecasts tailored for cyclists.",
     subDescription: [
-      "Built with React for a responsive and interactive user experience.",
-      "Integrated external movie APIs to fetch real-time movie data and information.",
-      "Implemented search functionality to help users find specific movies quickly.",
-      "I redid this project from a course as practice",
+      "Intergrated external weather APIs to fetch real-time weather data and forecasts.",
+      "Implemented score-based system to evaluate weather conditions for cycling, considering factors like temperature, precipitation, wind speed, and humidity.",
+      "Impleemented MVVM architecture to separate UI,business logic and data layer for better scalability and maintainability.",
+      "Currently going through google play store review process, but you can check out the codebase on GitHub",
     ],
-    href: "https://my-movie-fetcher.vercel.app/",
+    href: "https://github.com/indianathe3rdKing/CycleForecast",
     logo: "",
-    image: "/assets/projects/movie.png",
+    image: "/assets/projects/cycleforecast.png",
     tags: [
       {
         id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 2,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-
-      {
-        id: 3,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Kotlin",
+        path: "/assets/logos/kotlin.svg",
       },
     ],
   },
