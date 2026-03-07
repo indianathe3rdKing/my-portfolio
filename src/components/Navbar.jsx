@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { motion } from "motion/react";
 import HeroText from "./HeroText";
 import NavMenu from "./NavMenu";
-import Hero from "./Hero";
 
 function Navigation() {
   return (
@@ -72,7 +71,6 @@ const Navbar = () => {
           </motion.div>
         )}
       </div>
-      <Hero />
     </>
   );
 };
