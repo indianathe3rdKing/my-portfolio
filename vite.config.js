@@ -20,10 +20,7 @@ export default defineConfig({
               return "react-three";
             }
             if (id.includes("react-dom")) return "react-dom";
-            if (
-              id.includes("framer-motion") ||
-              id.includes("/motion")
-            ) {
+            if (id.includes("framer-motion") || id.includes("/motion")) {
               return "motion";
             }
           }
