@@ -19,7 +19,6 @@ const App = () => {
         </Suspense>
         <About id="about" />
         <Projects />
-        <Experiences />
         <Contact />
         <Footer />
       </div>
