@@ -33,7 +33,7 @@ const HeroText = ({ isOpen }) => {
             animate="visible"
             transition={{ delay: 1 }}
           >
-            Aspiring Software Developer <br />
+            Native Android Developer <br />
             Dedicated to Crafting
           </motion.p>
           <div>
@@ -49,7 +49,7 @@ const HeroText = ({ isOpen }) => {
             animate="visible"
             transition={{ delay: 1 }}
           >
-            Web Solutions
+            Mobile Solutions
           </motion.p>
         </div>
       </div>
@@ -62,7 +62,7 @@ const HeroText = ({ isOpen }) => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi I'm Eddie'
+          Hi I'm Indiphile
         </motion.h1>
         <div>
           <motion.p

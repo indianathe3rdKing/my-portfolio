@@ -1,61 +1,54 @@
 export const myProjects = [
   {
     id: 1,
-    title: "AI Chatbot",
-    description:
-      "A simple movie discovery app that fetches movie data from external APIs. Users can search for movies, view details like titles and descriptions, and explore different films in a clean interface.",
-    subDescription: [
-      "Built with React for a responsive and interactive user experience.",
-      "Integrated external movie APIs to fetch real-time movie data and information.",
-      "Implemented search functionality to help users find specific movies quickly.",
-      "I redid this project from a course template as practice",
-    ],
-    href: "https://chat-bot-pied-nine.vercel.app/",
-    logo: "",
-    image: "/assets/projects/chatbot.png",
-    tags: [
-      {
-        id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 2,
-        name: "Bun",
-        path: "/assets/logos/Bun.svg",
-      },
-      {
-        id: 3,
-        name: "Express",
-        path: "/assets/logos/Express.svg",
-      },
-
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "CycleForecast",
+    title: "Cycle-Forecast",
     description:
       "CycleForecast is an android app built with Kotlin and Jetpack Compose that provides weather forecasts tailored for cyclists.",
     subDescription: [
       "Intergrated external weather APIs to fetch real-time weather data and forecasts.",
       "Implemented score-based system to evaluate weather conditions for cycling, considering factors like temperature, precipitation, wind speed, and humidity.",
-      "Impleemented MVVM architecture to separate UI,business logic and data layer for better scalability and maintainability.",
+      "Implemented MVVM architecture to separate UI,business logic and data layer for better scalability and maintainability.",
       "Currently going through google play store review process, but you can check out the codebase on GitHub",
     ],
-    href: "https://github.com/indianathe3rdKing/CycleForecast",
+    href: "https://github.com/indianathe3rdKing/Clicka",
     logo: "",
-    image: "/assets/projects/cycleforecast.png",
+    image: "/assets/projects/cycleforecast_App.png",
     tags: [
       {
         id: 1,
         name: "Kotlin",
-        path: "/assets/logos/kotlin.svg",
+        path: "/assets/logos/Kotlin.svg",
+      },
+      {
+        id: 2,
+        name: "Android",
+        path: "/assets/logos/Android.svg",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Clicka-Auto Clicker",
+    description:
+      "A lightweight Android auto-clicker built with Kotlin for automating repetitive tasks.",
+    subDescription: [
+      "Used Android Accessibility Services to simulate touch input.",
+      "Built configurable click automation with a clean user interface.",
+      "Developed the project to deepen my understanding of Android system APIs.",
+    ],
+    href: "https://github.com/indianathe3rdKing/Clicka",
+    logo: "",
+    image: "/assets/projects/clicka.png",
+    tags: [
+      {
+        id: 1,
+        name: "Kotlin",
+        path: "/assets/logos/Kotlin.svg",
+      },
+      {
+        id: 2,
+        name: "Android",
+        path: "/assets/logos/Android.svg",
       },
     ],
   },
@@ -66,8 +59,7 @@ export const myProjects = [
       "A purpose-built internal web application for logging, tracking, and reviewing Steam-related activity in real time. Steam Logger centralizes operational data into a single interface, allowing staff to capture entries, audit historical records, and maintain accountability across ongoing workflows.",
     subDescription: [
       "Provides a structured interface for logging Steam activity entries as they happen, reducing reliance on manual notes or scattered tools.",
-      "Stores and organizes logs in a searchable, time-ordered format, making it easy to review past actions and verify operational history.",
-      "Includes mobile app and deskstop web version",
+      "Stores and organizes logs in a searchable, time-ordered format, making it easy to review past actions and verify operational history, Includes mobile app and deskstop web version",
       "Includes a demo environment(Password:Godlovesu, Email: demo123@gmail.com) where reviewers can access the full workflow using shared credentials to view how logs are created, stored, and reviewed end-to-end",
     ],
     href: "https://steam-logger.netlify.app/",
@@ -103,14 +95,52 @@ export const myProjects = [
     ],
   },
   {
-    id: 4,
-    title: "Ghost Platform",
+    id: 5,
+    title: "AI Chatbot",
     description:
       "A chatbot built to assist visitors of the fictional theme park Wonderland. The chatbot answers questions about the park, including general information, timings, and visitor-related queries through a conversational interface.",
     subDescription: [
       "Built as a monorepo using modern tooling, with a clear separation between frontend and backend workspaces for scalability and maintainability.",
       "Uses OpenAI integration to provide accurate, context-aware responses while keeping API usage efficient and controlled.",
       "Course project from Mosh Hamedani's AI course",
+    ],
+    href: "https://chat-bot-pied-nine.vercel.app/",
+    logo: "",
+    image: "/assets/projects/chatbot.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Bun",
+        path: "/assets/logos/Bun.svg",
+      },
+      {
+        id: 3,
+        name: "Express",
+        path: "/assets/logos/Express.svg",
+      },
+
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Ghost Platform",
+    description:
+      "A small 3D platformer built with Unity to explore the fundamentals of game development, including player movement, physics, enemy AI, and level design.",
+    subDescription: [
+      "Built with Unity and C# to learn the fundamentals of game development.",
+      "Implemented player movement, jumping mechanics, collision detection, and enemy interactions.",
+      "Designed a complete playable level featuring collectibles, hazards, and a finish portal.",
+      "Explored Unity's physics, animation, and scene management systems while building the project.",
     ],
 
     href: "https://indianathe3rd.itch.io/ghost-platform",

@@ -17,11 +17,11 @@ function Navigation() {
         </a>
       </li>
 
-      <li className="nav-li">
+      {/* <li className="nav-li">
         <a href="#experience" className="nav-link">
           Work
         </a>
-      </li>
+      </li> */}
 
       <li className="nav-li">
         <a href="#contact" className="nav-link">
@@ -29,7 +29,7 @@ function Navigation() {
         </a>
       </li>
       <li className="nav-li">
-        <a href="https://github.com/dashboard" className="nav-link">
+        <a href="https://github.com/indianathe3rdKing" className="nav-link">
           Github
         </a>
       </li>
